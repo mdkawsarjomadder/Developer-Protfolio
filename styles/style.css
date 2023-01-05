@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.header{
+   background-color: #fff8f3;
+   background-image: url('../images/header_bg.png'),url('../images/developer.png');
+   background-repeat: no-repeat;
+   background-position:bottom right,left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+     margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.nav-tital{
+    font-weight: 800px;
+    font-size: 45px;
+}
+.text-frimary{
+    color: #FFC300;
+}
+.btn-primary{
+    font-weight: 700px;
+    font-size: 20px;
+    height: 64px;
+    border: 0px;
+    padding: 18px 36px;
+    border-radius: 5px;
+    background: #FFC300;
+    color: white;
+}
+.banner{
+    display:flex ;
+    align-items: center;
+    margin: 0px 200px;
+}
+.banner-itme{
+    font-weight: 800px;
+    font-size: 80px;
+}
+.benner-title{
+    font-weight: 600px;
+    font-size: 45px;
+    margin: 10px;
+}
+.banner-description{
+    color: 	#808080;
+    font-size: 18px;
+    margin: 30px;
+}
+/* main kaj shuru */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.About{
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 155px;
+    margin: 85px 300px;
+    text-align: center;
+   }
+.section-title{
+ text-align: center;
+ padding: 30px;
+}
+.section-description{
+font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
+}  
+.About-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    font-size: 15px;
+    color: #757575;
+    margin: 0px 0px;
+}
+.info-description{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #474747;
+}
